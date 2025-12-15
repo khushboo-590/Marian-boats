@@ -7,7 +7,7 @@
 
   /* --------font-------- */
   --text-xs: 12px;
-  --text-base:16px;
+  --text-base: 16px;
   --text-lg: 18px;
   --text-xl: 20px;
   --text-2xl: 36px;
@@ -15,9 +15,31 @@
   /* -------------line-height-------- */
   --lh-100: 100%;
   --lh-120: 120%;
-    --lh-150: 150%;
-
+  --lh-150: 150%;
 }
+
+/* Medium screens ≤ 1400px */
+@media (max-width: 1400px) {
+  :root {
+    --text-xs: 11px;
+    --text-base: 15px;
+    --text-lg: 16px;
+    --text-xl: 18px;
+    --text-2xl: 24px;
+  }
+}
+
+/* Small screens ≤ 800px */
+@media (max-width: 800px) {
+  :root {
+    --text-xs: 10px;
+    --text-base: 14px;
+    --text-lg: 15px;
+    --text-xl: 16px;
+    --text-2xl: 20px;
+  }
+}
+
 /* ---------- Colors ---------- */
 .text-gray {
   color: var(--color-gray);

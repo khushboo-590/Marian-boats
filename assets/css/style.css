@@ -103,6 +103,14 @@
     h1 {
       font-weight: 500;
     }
+    .clock-icon {
+      width: 48px;
+      height: 48px;
+      @media (max-width: 1399px) {
+        width: 24px;
+        height: 24px;
+      }
+    }
     .save-btn {
       padding: 14px;
       gap: 10px;
@@ -115,20 +123,20 @@
     padding: 34px 70px;
     display: flex;
     gap: 98px;
-    @media (max-width: 1800px) {
+    @media (max-width: 1799px) {
       flex-direction: column;
       align-items: center;
       gap: 30px;
       padding: 24px 84px;
     }
-    @media (max-width: 1800px) {
+    @media (max-width: 1799px) {
       padding: 14px;
     }
 
     .percent-wrapper {
       max-width: 524px;
       width: 100%;
-      @media (max-width: 1800px) {
+      @media (max-width: 1799px) {
         max-width: 100%;
       }
 
@@ -138,6 +146,9 @@
         background-color: white;
         border-radius: 20px;
         border: 1px solid#eaeaea;
+        @media (max-width: 1200px) {
+          max-width: 160px;
+        }
 
         h2 {
           font-weight: 700;
@@ -151,7 +162,9 @@
         }
         input {
           font-weight: 600;
-          width: 100px;
+          max-width: 100px;
+          width: 100%;
+          background-color: none;
         }
         .common-box {
           width: 20px;
@@ -176,7 +189,7 @@
       height: 479px;
       display: block;
 
-      @media (max-width: 1800px) {
+      @media (max-width: 1799px) {
         display: none;
       }
     }
@@ -184,7 +197,7 @@
     .hero-img-2 {
       display: none;
 
-      @media (max-width: 1800px) {
+      @media (max-width: 1799px) {
         display: block;
         width: 100%;
         max-width: 541px;
@@ -194,13 +207,13 @@
 
     .gap-60 {
       gap: 60px;
-      @media (max-width: 1800px) {
+      @media (max-width: 1799px) {
         gap: 24px;
       }
     }
     .gap-98 {
       gap: 98px;
-      @media (max-width: 1800px) {
+      @media (max-width: 1799px) {
         gap: 60px;
       }
     }
