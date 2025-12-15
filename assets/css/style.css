@@ -1,0 +1,150 @@
+@import "root.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+.header {
+  max-width: 1920px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+.sidebar {
+  max-width: 296px;
+  border-radius: 16px;
+  background-color: white;
+  padding: 20px;
+
+  .side-content {
+    max-width: 256px;
+    h4 {
+      font-weight: 400;
+    }
+    .btn-fill {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+      max-width: 256px;
+      height: 48px;
+      font-weight: 600;
+      border-radius: 8px;
+      border: 1px var(--dark-gray);
+    }
+    .surface-btn {
+      padding: 12px;
+      border: 1px solid transparent;
+      border-bottom: 1px solid #eaeaea;
+      border-radius: 6px;
+      width: 100%;
+      font-weight: 500;
+      background-color: white;
+      text-align: left;
+      transition: all 0.3s ease;
+    }
+
+    .surface-btn:hover {
+      border-color: #0097d8;
+      border-bottom-color: #0097d8;
+      color: var(--color-blue);
+    }
+    .arrow-btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+    .tab-buttons {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 94px;
+    }
+    .tab-buttons .surface-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .create-new-btn {
+      text-align: center;
+      width: 100%;
+      padding: 12px;
+      max-width: 256px;
+      height: 48px;
+      font-weight: 600;
+      border-radius: 8px;
+      border: 1px var(--dark-gray);
+    }
+  }
+  .mt-12 {
+    margin-top: 12px;
+  }
+  .my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+}
+/* -------------hero-------- */
+
+.hero {
+  max-width: 1564px;
+  width: 100%;
+  .hero-nav {
+    background-color: white;
+    border-radius: 8px;
+
+    h1 {
+      font-weight: 500;
+    }
+    .save-btn {
+      padding: 14px;
+      gap: 10px;
+      border: 1px solid#eaeaea;
+      border-radius: 8px;
+    }
+  }
+  .hero-section {
+    margin-top: 20px;
+    padding: 34px 70px 34px 70px;
+    .percent-box {
+      max-width: 232px;
+      width: 100%;
+      background-color: white;
+      border-radius: 20px;
+      border: 1px solid#eaeaea;
+      h2 {
+        font-weight: 700;
+        margin-bottom: 4px !important;
+      }
+      .percent-data {
+        border-radius: 8px;
+        height: 38px;
+      }
+      input{
+        font-weight: 600;
+        width: 100px;
+      }
+      .common-box {
+        width: 20px;
+        height: 20px;
+        border-radius: 6px;
+      }
+      .go-btn{
+        background-color: black;
+        border-radius: 8px;
+        color: white;
+        display: flex ;
+        justify-content: center;
+        width: 100%;
+        font-weight: 500;
+
+      }
+    }
+  }
+}

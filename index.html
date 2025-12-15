@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marian Boats</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/root.css" />
+  </head>
+  <body>
+    <section class="header bg-dark-gray">
+      <div class="sidebar">
+        <div class="side-content">
+          <h4 class="text-xl lh-120 text-gray m-0">Quick actions</h4>
+          <button class="btn-fill text-xl lh-120 bg-light-gray mt-3 fw-600">
+            Fill all
+            <span
+              ><img src="./assets/images/svg/fill-icon.svg" alt="fill-icon"
+            /></span>
+          </button>
+          <button class="btn-fill text-xl lh-120 bg-light-gray mt-12 fw-600">
+            Empty all
+            <span
+              ><img src="./assets/images/svg/empty-fill.svg" alt="empty-icon"
+            /></span>
+          </button>
+          <div class="border border-light-gray my-30"></div>
+        </div>
+        <div class="side-content">
+          <h4 class="text-xl lh-120 text-gray m-0">Wake Presets</h4>
+          <div class="tab-buttons">
+            <button
+              class="surface-btn text-black text-xl lh-20 fw-600 mt-3 fw-500"
+            >
+              Surf Left
+            </button>
+            <button class="surface-btn text-black text-xl lh-20 fw-600 fw-500">
+              Surf Right
+            </button>
+            <button class="surface-btn text-black text-xl lh-20 fw-600 fw-500">
+              Wakeboard
+            </button>
+            <button
+              class="surface-btn text-black text-xl lh-20 fw-600 fw-500 w-100 arrow-btn"
+            >
+              Custom
+              <span
+                ><img src="./assets/images/svg/arrow-icon.svg" alt="arrow-icon"
+              /></span>
+            </button>
+          </div>
+          <button
+            class="create-new-btn text-xl lh-120 bg-light-gray fw-600 mb-10"
+          >
+            Create New
+          </button>
+          <button class="create-new-btn text-xl lh-120 bg-light-gray fw-600">
+            Delete
+          </button>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="hero-nav p-4">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex flex-column gap-2">
+              <h4 class="text-xl lh-120 text-gray m-0">Surf Left</h4>
+              <div class="d-flex gap-2">
+                <img
+                  src="./assets/images/svg/clock-icon.svg"
+                  alt="clock-icon"
+                />
+                <h1 class="text-2xl lh-120 text-black m-0">30 km/h</h1>
+              </div>
+            </div>
+
+            <button class="save-btn bg-dark-gray">
+              Save preset
+              <span>
+                <img
+                  src="./assets/images/svg/save-fill-icon.svg"
+                  alt="save-fill-icon"
+                />
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="hero-section">
+          <div class="percent-box p-4">
+            <h2 class="text-lg lh-120 text-black m-0">Left Ballast</h2>
+            <h5 class="text-xs lh-150 text-gray m-0">Filling</h5>
+            <div class="bg-blue p-2 d-flex gap-3 percent-data mt-2 justify-content-center align-items-center ">
+              <div
+                class="bg-white p-2 common-box d-flex justify-content-center align-items-center "
+              >
+                <img
+                  src="./assets/images/svg/minus-icon.svg"
+                  alt="minus-icon"
+                />
+              </div>
+
+              <input type="number" class="text-black text-lg lh-120 text-center"
+                  value="0"
+                  placeholder="75%"
+ />
+              <div
+                class="bg-white p-2 common-box d-flex justify-content-center  align-items-center"
+              >
+                <img src="./assets/images/svg/plus-icon.svg" alt="plus-icon" />
+              </div>
+            </div>
+            <button class="go-btn p-2 text-abse mt-2 lh-120">Go</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

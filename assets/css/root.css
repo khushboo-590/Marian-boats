@@ -1,0 +1,76 @@
+:root {
+  /* -----color-------- */
+  --color-gray: #505050;
+  --color-blue: #0097d8;
+  --color-light-gray: #eaeaea;
+  --color-dark-gray: #fafafa;
+
+  /* --------font-------- */
+  --text-xs: 12px;
+  --text-base:16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 36px;
+
+  /* -------------line-height-------- */
+  --lh-100: 100%;
+  --lh-120: 120%;
+    --lh-150: 150%;
+
+}
+/* ---------- Colors ---------- */
+.text-gray {
+  color: var(--color-gray);
+}
+.text-blue {
+  color: var(--color-blue);
+}
+.text-light-gray {
+  color: var(--color-light-gray);
+}
+.text-dark-gray {
+  color: var(--color-dark-gray);
+}
+
+.bg-gray {
+  background-color: var(--color-gray);
+}
+.bg-blue {
+  background-color: var(--color-blue);
+}
+.bg-light-gray {
+  background-color: var(--color-light-gray);
+}
+.bg-dark-gray {
+  background-color: var(--color-dark-gray);
+}
+
+/* ---------- Font Sizes ---------- */
+.text-xs {
+  font-size: var(--text-xs);
+}
+.text-base {
+  font-size: var(--text-base);
+}
+.text-lg {
+  font-size: var(--text-lg);
+}
+.text-xl {
+  font-size: var(--text-xl);
+}
+.text-2xl {
+  font-size: var(--text-2xl);
+}
+
+/* ---------- Line Heights ---------- */
+.lh-100 {
+  line-height: var(--lh-100);
+}
+.lh-120 {
+  line-height: var(--lh-120);
+}
+.lh-150 {
+  line-height: var(--lh-150);
+}
+/* ---------- Font Weights ---------- */
+
