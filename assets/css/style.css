@@ -92,6 +92,7 @@
   }
 }
 /* -------------hero-------- */
+
 .hero {
   max-width: 1564px;
   width: 100%;
@@ -210,6 +211,7 @@
         gap: 24px;
       }
     }
+    
     .gap-98 {
       gap: 98px;
       @media (max-width: 1799px) {
