@@ -60,6 +60,9 @@
 .bg-blue {
   background-color: var(--color-blue);
 }
+.bg-blue-12 {
+  background-color: rgba(0, 151, 216, 0.12);
+}
 .bg-light-gray {
   background-color: var(--color-light-gray);
 }
@@ -95,4 +98,35 @@
   line-height: var(--lh-150);
 }
 /* ---------- Font Weights ---------- */
+
+/* ---------- Button States ---------- */
+.btn-active {
+  background-color: var(--color-blue) !important;
+}
+.btn-inactive {
+  background-color: rgba(0, 151, 216, 0.12) !important;
+}
+.btn-white {
+  background-color: white !important;
+}
+
+/* ---------- Button Interactions ---------- */
+.common-box {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.common-box:hover {
+  transform: scale(1.05);
+}
+
+/* ---------- Gradient Backgrounds ---------- */
+.bg-gradient-blue {
+  background: linear-gradient(to right, var(--color-blue) 50%, rgba(0, 151, 216, 0.12) 50%);
+  transition: background 0.3s ease;
+}
+
+/* ---------- Input Text Colors ---------- */
+.input-blue-text {
+  color: var(--color-blue) !important;
+}
 
