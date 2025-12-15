@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./assets/css/root.css" />
   </head>
   <body>
-    <section class="header bg-dark-gray">
+    <section class="header bg-dark-gray mx-auto">
       <div class="sidebar">
         <div class="side-content">
           <h4 class="text-xl lh-120 text-gray m-0">Quick actions</h4>
@@ -90,35 +90,237 @@
             </button>
           </div>
         </div>
-        <div class="hero-section">
-          <div class="percent-box p-4">
-            <h2 class="text-lg lh-120 text-black m-0">Left Ballast</h2>
-            <h5 class="text-xs lh-150 text-gray m-0">Filling</h5>
-            <div class="bg-blue p-2 d-flex gap-3 percent-data mt-2 justify-content-center align-items-center ">
-              <div
-                class="bg-white p-2 common-box d-flex justify-content-center align-items-center "
-              >
-                <img
-                  src="./assets/images/svg/minus-icon.svg"
-                  alt="minus-icon"
-                />
-              </div>
+        <div class="hero-section w-100">
+          <div class="percent-wrapper">
+            <div class="row justify-content-center gap-60">
+              <div class="percent-box p-4">
+                <h2 class="text-lg lh-120 text-black m-0">Left Ballast</h2>
+                <h5 class="text-xs lh-150 text-gray m-0 percent-text">
+                  Filling
+                </h5>
+                <div
+                  class="bg-blue p-2 d-flex gap-3 percent-data mt-2 justify-content-center align-items-center"
+                >
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/minus-icon.svg"
+                      alt="minus-icon"
+                    />
+                  </div>
 
-              <input type="number" class="text-black text-lg lh-120 text-center"
-                  value="0"
-                  placeholder="75%"
- />
-              <div
-                class="bg-white p-2 common-box d-flex justify-content-center  align-items-center"
-              >
-                <img src="./assets/images/svg/plus-icon.svg" alt="plus-icon" />
+                  <input
+                    type="number"
+                    class="text-black text-lg lh-120 text-center border-0 bg-none"
+                    value="0"
+                    placeholder="75%"
+                  />
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/plus-icon.svg"
+                      alt="plus-icon"
+                    />
+                  </div>
+                </div>
+                <button class="go-btn p-2 text-abse mt-2 lh-120 border-none">
+                  Go
+                </button>
+              </div>
+              <div class="percent-box p-4">
+                <h2 class="text-lg lh-120 text-black m-0">Right Ballast</h2>
+                <h5 class="text-xs lh-150 text-gray m-0 percent-text">
+                  Emptying
+                </h5>
+                <div
+                  class="bg-blue p-2 d-flex gap-3 percent-data mt-2 justify-content-center align-items-center"
+                >
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/minus-icon.svg"
+                      alt="minus-icon"
+                    />
+                  </div>
+
+                  <input
+                    type="number"
+                    class="text-black text-lg lh-120 text-center border-0 bg-none"
+                    value="0"
+                    placeholder="75%"
+                  />
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/plus-icon.svg"
+                      alt="plus-icon"
+                    />
+                  </div>
+                </div>
+                <button class="go-btn p-2 text-abse mt-2 lh-120 border-none">
+                  Go
+                </button>
+              </div>
+              <div class="percent-box p-4">
+                <h2 class="text-lg lh-120 text-black m-0">Bow Ballast</h2>
+                <h5 class="text-xs lh-150 text-gray m-0 percent-text">
+                  Standby
+                </h5>
+                <div
+                  class="bg-blue p-2 d-flex gap-3 percent-data mt-2 justify-content-center align-items-center"
+                >
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/minus-icon.svg"
+                      alt="minus-icon"
+                    />
+                  </div>
+
+                  <input
+                    type="number"
+                    class="text-black text-lg lh-120 text-center border-0 bg-none"
+                    value="0"
+                    placeholder="75%"
+                  />
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/plus-icon.svg"
+                      alt="plus-icon"
+                    />
+                  </div>
+                </div>
+                <button class="go-btn p-2 text-abse mt-2 lh-120 border-none">
+                  Go
+                </button>
               </div>
             </div>
-            <button class="go-btn p-2 text-abse mt-2 lh-120">Go</button>
-          </div>         
+          </div>
+          <img
+            src="./assets/images/png/hero-img.png"
+            alt="hero-img"
+            class="hero-img"
+          />
+
+          <img
+            src="./assets/images/png/her-img-2.png"
+            alt="hero-img"
+            class="hero-img-2"
+          />
+          <div class="percent-wrapper">
+            <div class="row justify-content-center gap-60">
+              <div class="percent-box p-4">
+                <h2 class="text-lg lh-120 text-black m-0">Left Trim</h2>
+                <div
+                  class="bg-dark-gray p-2 d-flex gap-3 percent-data mt-2 justify-content-center align-items-center"
+                >
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/minus-icon.svg"
+                      alt="minus-icon"
+                    />
+                  </div>
+
+                  <input
+                    type="number"
+                    class="text-black text-lg lh-120 text-center border-0 bg-none"
+                    value="0"
+                    placeholder="75%"
+                  />
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/plus-icon.svg"
+                      alt="plus-icon"
+                    />
+                  </div>
+                </div>
+                <button class="go-btn p-2 text-abse mt-2 lh-120 border-none">
+                  Go
+                </button>
+              </div>
+              <div class="percent-box p-4">
+                <h2 class="text-lg lh-120 text-black m-0">Right Trim</h2>
+                <div
+                  class="bg-dark-gray p-2 d-flex gap-3 percent-data mt-2 justify-content-center align-items-center"
+                >
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/minus-icon.svg"
+                      alt="minus-icon"
+                    />
+                  </div>
+
+                  <input
+                    type="number"
+                    class="text-black text-lg lh-120 text-center border-0 bg-none"
+                    value="0"
+                    placeholder="75%"
+                  />
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/plus-icon.svg"
+                      alt="plus-icon"
+                    />
+                  </div>
+                </div>
+                <button class="go-btn p-2 text-abse mt-2 lh-120 border-none">
+                  Go
+                </button>
+              </div>
+              <div class="percent-box p-4">
+                <h2 class="text-lg lh-120 text-black m-0">Middle Trim</h2>
+                <div
+                  class="bg-dark-gray p-2 d-flex gap-3 percent-data mt-2 justify-content-center align-items-center"
+                >
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/minus-icon.svg"
+                      alt="minus-icon"
+                    />
+                  </div>
+
+                  <input
+                    type="number"
+                    class="text-black text-lg lh-120 text-center border-0 bg-none"
+                    value="0"
+                    placeholder="75%"
+                  />
+                  <div
+                    class="bg-white p-2 common-box d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="./assets/images/svg/plus-icon.svg"
+                      alt="plus-icon"
+                    />
+                  </div>
+                </div>
+                <button class="go-btn p-2 text-abse mt-2 lh-120 border-none">
+                  Go
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+    <script src="./assets/js/app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
